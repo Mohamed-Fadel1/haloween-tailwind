@@ -30,9 +30,9 @@
 
     <div id="loader" class="fixed w-full  h-full z-40 grid place-items-center bg-container-color"><img class="w-1/2" src="./img/preloader1.png" alt=""></div>
     <!-- scroll up -->
-    <span id="scroll-up" class="fixed hidden bottom-4 right-4 p-1 bg-primary-color rounded-full z-20"><a href="#home"><img src="./img/logo-skull.png" class="w-8"></a></span>
+    <span id="scroll-up" class="fixed hidden bottom-4 right-4 p-1 bg-primary-color rounded-full z-20"><a href="#header"><img src="./img/logo-skull.png" class="w-8"></a></span>
 
-<header>
+<header id="header">
     <nav class="container flex justify-between items-center py-4">
         <div class="flex items-center space-x-2">
             <img class="w-10" src="./img/item-pumpkin.png" alt=""> 
@@ -70,9 +70,11 @@
     <section id="home">
         <div class="container">
             <div class="flex flex-col lg:flex-row items-center space-y-4 lg:space-y-0 ">
-                <div class="md:w-1/2 img-home">
-                    <img src="./img/Banner.png" alt="">
+                <div class="md:w-1/2 img-home relative justify-self-center">
+                    <img class="md:w-3/4" src="./img/pumpkin-1.png" alt="">
+                    <img class="md:w-3/4 absolute top-0 left-0  flicker" src="./img/pumpkin-2.png" alt="">
                 </div>
+                
 
                 <div class=" lg:w-1/2 text-center mb-10 content-home">
                     <h3 class="text-3xl text-gray-100">31 October 2024</h3>

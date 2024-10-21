@@ -33,3 +33,78 @@ p , a , h3,h4 {
 .blob2 {
 @apply w-80 h-80 bg-primary-color absolute bottom-16 right-0 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full;
 }
+
+.flicker {
+    animation:flicker 0.8s linear infinite ;
+}
+
+
+@keyframes flicker {
+    0%{
+        opacity: 0;
+    }
+
+    31.98% {
+        opacity: 0;
+    }
+    32% {
+        opacity: 1;
+    }
+    32.8% {
+        opacity: 1;
+    }
+    32.82% {
+        opacity: 0;
+    }
+    34.98% {
+        opacity: 0;
+    }
+    35%{
+        opacity: 1;
+    }
+    35.7%{
+        opacity: 1;
+    }
+    35.72%{
+        opacity: 0;
+    }
+    36.98%{
+        opacity: 0;
+    }
+    37%{
+        opacity: 1;
+    }
+    37.6%{
+        opacity: 1;
+    }
+    67.98%{
+        opacity: 1;
+    }
+    68%{
+        opacity: 1;
+    }
+    68.4%{
+        opacity: 1;
+    }
+    95.98%{
+        opacity: 0;
+    }
+    96%{
+        opacity: 1;
+    }
+    96.7%{
+        opacity: 1;
+    }
+    96.78%{
+        opacity: 0;
+    }
+    98.98%{
+        opacity: 0;
+    }
+    99%{
+        opacity: 1;
+    }
+    99.6%{
+        opacity: 1;
+    }
+}
